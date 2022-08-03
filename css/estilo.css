@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html,
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --cor-cab:#FFFFFF;
+    --cor-fundo1: #9C2D3A;
+    --cor-fundo2:#EB828F;
+    --cor-num:#FF6782;
+    --cor-tit:#000000;
+    --cor-tex:#333333;
+}
+
+
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+
+
+.flex{
+    display: flex;
+}
+header img{
+    border-radius: 50%;
+    justify-content: center;
+    width: 214px;
+    height: 208px;
+    border: solid 5px white;
+    border-radius: 1000px;
+    box-shadow: 0px 5px 6px 1px rgba(0, 0, 0, 0.25);
+    
+}
+header{
+    text-align: center;
+    justify-content: center;
+    height: 215px;
+
+    color: var(--cor-cab);
+    background: linear-gradient(180deg, #9C2D3A 26.04%, rgba(235, 130, 143, 0.82) 100%), #C4C4C4;}
+header h1{
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+}
+header h2{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+#info-seguir{
+   justify-content: center;
+    padding-top: 100px;
+}
+
+#numero{
+    color: var(--cor-num);
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 40px;
+    padding-inline: 85px;
+}
+
+
+#segu{
+    color: #838383;
+    font-weight: 400;
+    padding-inline: 85px;
+
+
+
+}
+.sobre{
+    padding-top: 15px;
+text-align: center;
+background: #E9CACE;
+
+}
+#tex{
+    padding: 30px;
+    font-weight: 300;
+    line-height: 1.7;
+
+}
+#seguir{
+ text-align: center;
+ padding: 30px;
+}
+#seguir a{
+    display: block;
+    border-radius: 120px;
+    letter-spacing: 10%;
+    background-color: var(--cor-fundo1);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px
+
+}
